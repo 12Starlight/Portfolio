@@ -142,6 +142,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-right: 50px;
     font-size: .8em;
   }
+
 }
 .gtco-top .gtco-social-top li {
   padding: 0;
@@ -326,17 +327,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-
-@media screen and (max-width: 320px) {
-  .row {
-    font-size: .6em;
-  }
-
-  .name {
-    font-size: .9em;
-  }
-}
-
 
 @media screen and (max-width: 480px) {
   #gtco-header .text-left {
@@ -2190,3 +2180,60 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+@media screen and (max-width: 320px) {
+  .row {
+    font-size: .6em;
+  }
+
+  .name {
+    font-size: .9em;
+  }
+
+  .gtco-social-icons li a i {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .gtco-social-icons li a i {
+    font-size: .9em; 
+  }
+
+  .img-wrapper {
+    width: 100px; 
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gtco-social-icons li a i {
+    font-size: .5em; 
+  }
+
+  .img-wrapper {
+    width: 100px; 
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .gtco-social-icons li a i {
+    font-size: .5em; 
+  }
+
+  .img-wrapper {
+    width: 100px; 
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gtco-social-icons li a i {
+    font-size: 5em; 
+  }
+
+  .row-accomplishments {
+    display: flex;
+    flex-direction: row;
+  }
+}
