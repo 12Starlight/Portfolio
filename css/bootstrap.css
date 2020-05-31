@@ -364,6 +364,7 @@ figure {
 .tech-wrapper {
   display: flex; 
   flex-wrap: wrap;
+  justify-content: center;
   /* border: 1px solid fuchsia;  */
   height: 200%; 
 }
@@ -955,9 +956,35 @@ pre code {
   clear: both;
 }
 
-.row {
-  display: flex; 
+.row-accomplishments {
+  display: flex;
   justify-content: center;
+}
+
+.row-accomplishments:before, .row-accomplishments:after {
+  content: " ";
+  display: table;
+}
+.row-accomplishments:after {
+  clear: both;
+}
+
+.row-about {
+  margin-left: -180px;
+  /* margin-right: -15px; */
+}
+
+.row-about:before, .row-about:after {
+  content: " ";
+  display: table;
+}
+.row-about:after {
+  clear: both;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .row:before, .row:after {
@@ -4697,7 +4724,6 @@ a.thumbnail.active {
 
 .media-right,
 .media > .pull-right {
-  padding-left: 10px;
 }
 
 .media-left,

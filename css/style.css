@@ -140,6 +140,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .gtco-top .gtco-social-top {
     margin-right: 50px;
+    font-size: .8em;
   }
 }
 .gtco-top .gtco-social-top li {
@@ -751,6 +752,15 @@ form label {
   display: block;
   text-align: center;
   margin-left: 3px;
+}
+
+.gtco-social-icons li a i {
+  font-size: 2em;
+}
+
+.row-accomplishments {
+  display: flex;
+  flex-direction: column;
 }
 
 #gtco-features,
@@ -1694,6 +1704,12 @@ form label {
 }
 
 .row-pb-sm {
+  padding-bottom: 2em !important;
+}
+
+.row-title-pb-sm {
+  display: flex;
+  flex-direction: column;
   padding-bottom: 2em !important;
 }
 
