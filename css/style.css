@@ -732,10 +732,17 @@ form label {
   display: block;
 }
 #gtco-counter .counter-label {
+  /* display: flex;
+  justify-content: center; */
   margin-bottom: 0;
+  padding: 0;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.5);
   letter-spacing: .1em;
+  /* border: 1px solid fuchsia; */
+  /* max-width: 100%; */
+  /* max-height: 50%; */
+  width: 255px;
 }
 @media screen and (max-width: 768px) {
   #gtco-counter .feature-center {
@@ -801,7 +808,6 @@ form label {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  border: 1px solid fuchsia;
 }
 
 #gtco-features {
@@ -2237,5 +2243,25 @@ form label {
   .row-accomplishments {
     display: flex;
     flex-direction: row;
+  }
+
+  .counter-label-div {
+    width: 255px; 
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: .1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #gtco-counter .counter-label {
+    max-width: 100%;
+  }
+
+  .counter-label-div {
+    width: 100%; 
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: .1em;
   }
 }
