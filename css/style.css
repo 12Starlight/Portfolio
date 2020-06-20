@@ -2243,6 +2243,7 @@ form label {
   .row-accomplishments {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .counter-label-div {
